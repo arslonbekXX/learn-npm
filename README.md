@@ -7,7 +7,6 @@
 ## using
 
 ```js
-"use strict";
 import { imgLoading } from "./index.js";
 
 const element = document.getElementById("img-wrapper");
