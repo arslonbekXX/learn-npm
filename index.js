@@ -1,6 +1,6 @@
 "use strict";
 
-export function imgLoading(src, element, delay = 1) {
+function imgLoading(src, element, delay = 1) {
   element.innerHTML = "";
   const loader = createElement("span", "Loading...");
   element.appendChild(loader);
@@ -24,8 +24,13 @@ export function imgLoading(src, element, delay = 1) {
   });
 }
 
-export function createElement(tagName, content) {
+function createElement(tagName, content) {
   const element = document.createElement(tagName);
   element.innerHTML = content;
   return element;
 }
+
+module.exports = {
+  imgLoading,
+  createElement,
+};

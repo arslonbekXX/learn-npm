@@ -7,7 +7,7 @@
 ## using
 
 ```js
-import { imgLoading } from "./index.js";
+import { imgLoading } from "pdp-b-18";
 
 const element = document.getElementById("img-wrapper");
 const btn = document.getElementById("load-img-btn");
