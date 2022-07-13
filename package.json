@@ -1,0 +1,26 @@
+{
+  "name": "pdp-b-18",
+  "version": "1.0.0",
+  "description": "for learning npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arslonbekXX/learn-npm.git"
+  },
+  "keywords": [
+    "img",
+    "loading",
+    "pdp-b-18",
+    "npm",
+    "render"
+  ],
+  "author": "ArslonbekXX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arslonbekXX/learn-npm/issues"
+  },
+  "homepage": "https://github.com/arslonbekXX/learn-npm#readme"
+}
